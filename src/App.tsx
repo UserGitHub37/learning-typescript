@@ -1,8 +1,9 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Card, { CardVariant } from './components/Card';
-import UserList from './components/UserList';
 import { IUser } from './types/types';
+import List from './components/List';
+import UserItem from './components/UserItem';
 
 const App = () => {
   const [users, setUsers] = useState<IUser[]>([]);
@@ -29,7 +30,10 @@ const App = () => {
       <Card onClick={(num) => console.log('click-2', num)} variant={CardVariant.primary} width='200px' height='100px'>
         <div>Lorem ipsum dolor sit amet.</div>
       </Card>
-      <UserList users={users} />
+      <List
+        items={users}
+        renderItem={(user: IUser) => <UserItem key={user.id} user={user}/>}
+      />
     </div>
   );
 };
