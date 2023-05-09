@@ -4,13 +4,14 @@
 
 ### Изучена типизация:
 + пропсов, children,
-+ хука useState,
++ хуков useState и useRef,
 + данных, которые приходят с сервера (https://jsonplaceholder.typicode.com/),
 + событий ChangeEvent, MouseEvent, DragEvent
 
 ## Используемые библиотеки:
 axios
 
+* * *
 * * *
 
 ## Getting Started with Create React App
