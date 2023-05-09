@@ -3,8 +3,10 @@
 + Изучить применение TypeScript в React.
 
 ### Изучена типизация:
-+ пропсов, children, хука useState,
-+ данных, которые приходят с сервера (https://jsonplaceholder.typicode.com/).
++ пропсов, children,
++ хука useState,
++ данных, которые приходят с сервера (https://jsonplaceholder.typicode.com/),
++ событий ChangeEvent, MouseEvent, DragEvent
 
 ## Используемые библиотеки:
 axios
