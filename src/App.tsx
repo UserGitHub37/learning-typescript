@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 import Card, { CardVariant } from './components/Card';
 import EventsExamle from './components/EventsExamle';
-import UsersPage from './components/UserPage';
+import UsersPage from './components/UsersPage';
 import UserItemPage from './components/UserItemPage';
 import TodosPage from './components/TodosPage';
 import TodoItemPage from './components/TodoItemPage';
