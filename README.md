@@ -4,12 +4,19 @@
 
 ### Изучена типизация:
 + пропсов, children,
-+ хуков useState и useRef,
++ хуков useState, useRef, useParams,
 + данных, которые приходят с сервера (https://jsonplaceholder.typicode.com/),
 + событий ChangeEvent, MouseEvent, DragEvent
 
 ## Используемые библиотеки:
-axios
+axios, react router.
+
+## Используемые хуки:
+useState, useEffect, useRef, useParams, useNavigate.
+
+## Планируемые доработки
+- навести красоту с использованием bootstrap,
+- сделать рефакторинг кода
 
 * * *
 * * *
